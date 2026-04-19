@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D86722A5-FE11-4247-B770-2197F58D873F}|UserService\\UserService.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D86722A5-FE11-4247-B770-2197F58D873F}|UserService\\UserService.csproj|solutionrelative:userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86722A5-FE11-4247-B770-2197F58D873F}|UserService\\UserService.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86722A5-FE11-4247-B770-2197F58D873F}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74899B5D-122C-44B8-B951-7D081B994813}|ApiGateway\\ApiGateway.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74899B5D-122C-44B8-B951-7D081B994813}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5176431-F0B9-4424-9019-84F38BDB1E57}|OrderService\\OrderService.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\orderservice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5176431-F0B9-4424-9019-84F38BDB1E57}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C3C434-8D53-43F0-B5BA-91655F687301}|PaymentService\\PaymentService.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\paymentservice\\services\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C3C434-8D53-43F0-B5BA-91655F687301}|PaymentService\\PaymentService.csproj|solutionrelative:paymentservice\\services\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5176431-F0B9-4424-9019-84F38BDB1E57}|OrderService\\OrderService.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\orderservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5176431-F0B9-4424-9019-84F38BDB1E57}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86722A5-FE11-4247-B770-2197F58D873F}|UserService\\UserService.csproj|d:\\tokio marine journy code\\microservices\\microservicesdemo\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86722A5-FE11-4247-B770-2197F58D873F}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:25:29.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserService\\appsettings.json",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\UserService\\appsettings.json*",
+              "RelativeToolTip": "UserService\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-19T13:19:46.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\OrderService\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrderService\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\OrderService\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrderService\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T12:11:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\appsettings.json",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\ApiGateway\\appsettings.json",
+              "RelativeToolTip": "ApiGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-19T12:06:58.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T12:05:26.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\OrderService\\Services\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "OrderService\\Services\\RabbitMQService.cs",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\OrderService\\Services\\RabbitMQService.cs",
+              "RelativeToolTip": "OrderService\\Services\\RabbitMQService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T11:51:49.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RabbitMQConsumer.cs",
+              "DocumentMoniker": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\PaymentService\\Services\\RabbitMQConsumer.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Services\\RabbitMQConsumer.cs",
+              "ToolTip": "D:\\Tokio Marine Journy Code\\microservices\\MicroservicesDemo\\PaymentService\\Services\\RabbitMQConsumer.cs",
+              "RelativeToolTip": "PaymentService\\Services\\RabbitMQConsumer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T11:44:03.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

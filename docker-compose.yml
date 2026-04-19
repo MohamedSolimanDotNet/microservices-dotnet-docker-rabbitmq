@@ -1,0 +1,80 @@
+services:
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "Sayko@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    #DB will NOT be deleted anymore
+    #Data persists even after docker compose down
+    volumes:
+    - sql_data:/var/opt/mssql
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  userservice:
+    build: ./UserService
+    container_name: userservice
+    ports:
+      - "7001:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - sqlserver
+      - rabbitmq
+
+  productservice:
+    build: ./ProductService
+    container_name: productservice
+    ports:
+      - "7002:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - sqlserver
+
+  orderservice:
+    build: ./OrderService
+    container_name: orderservice
+    ports:
+      - "7003:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - sqlserver
+      - rabbitmq
+
+  paymentservice:
+    build: ./PaymentService
+    container_name: paymentservice
+    ports:
+      - "7004:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - rabbitmq
+
+  
+  apigateway:
+    build: ./ApiGateway
+    container_name: apigateway
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - userservice
+      - orderservice
+      - productservice
+
+# 👇 ADD THIS AT THE VERY END (same level as "services")
+volumes:
+  sql_data:
