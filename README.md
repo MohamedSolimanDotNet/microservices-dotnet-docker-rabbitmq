@@ -168,6 +168,14 @@ This architecture enables:
 
 ---
 
+# 🐳 Running Containers
+
+The following screenshot shows all microservices running inside Docker:
+
+![Docker Containers](docs/docker-containers.png)
+
+---
+
 # System Workflow
 
 1. Client sends request through API Gateway.
